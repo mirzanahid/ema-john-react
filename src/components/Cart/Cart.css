@@ -1,0 +1,75 @@
+.cart{
+    background: rgba(255, 153, 0, 0.3);
+    padding: 20px 23px;
+    position: sticky;
+    top: 80px;
+}
+
+.cart h3 {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #1C2B35;
+    text-align: center;
+}
+
+.order-summer-calculation {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.order-summer-calculation li {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #2A414F;
+    margin-bottom: 25px;
+}
+
+.order-summery-total {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #0E161A;
+}
+
+.order-summery-btn {
+    width: 100%;
+    height: 48px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #FF9900;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-clear-btn{
+    margin-top: 60px;
+    margin-bottom: 15px;
+    background: #FF3030;
+}
+
+.order-summery-btn:hover{
+    background: #FF3030;
+}
+
+.cart-clear-btn:hover{
+    background: #FF9900;
+}
+
+.order-summer-icon{
+    margin-left: 5px;
+    font-size: 18px;
+}
